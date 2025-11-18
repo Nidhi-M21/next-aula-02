@@ -1,4 +1,5 @@
 import MagiaDoJSX from '@/components/MagiaDoJSX/MagiaDoJSX'
+import Saudacao from '@/components/Saudacao/saudacao'
 
 export default function HomePage() {
 
@@ -9,6 +10,7 @@ export default function HomePage() {
         será agora potenciado pelo React & Next.js.</p>
       <p>React é uma biblioteca JS para construir interfaces de utilizador (UI) através de componentes.</p>
       <MagiaDoJSX />
+      <Saudacao></Saudacao>
     </div>
   )
 }
